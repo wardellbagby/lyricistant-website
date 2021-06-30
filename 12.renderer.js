@@ -1,0 +1,3 @@
+/*! For license information please see 12.renderer.js.LICENSE.txt */
+(self.webpackChunklyricistant=self.webpackChunklyricistant||[]).push([[12],{4012:(e,t,i)=>{"use strict";i.r(t),i.d(t,{default:()=>a});const r=async(e,t,i=e.name)=>{const a=[],s=[];for await(const n of e.values()){const e=`${i}/${n.name}`;"file"===n.kind?s.push(n.getFile().then((t=>Object.defineProperty(t,"webkitRelativePath",{configurable:!0,enumerable:!0,get:()=>e})))):"directory"===n.kind&&t&&a.push(r(n,t,e))}return[...(await Promise.all(a)).flat(),...await Promise.all(s)]},a=async(e={})=>{e.recursive=e.recursive||!1;const t=await window.showDirectoryPicker();return r(t,e.recursive)}}}]);
+//# sourceMappingURL=12.renderer.js.map

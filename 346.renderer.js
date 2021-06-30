@@ -1,0 +1,3 @@
+/*! For license information please see 346.renderer.js.LICENSE.txt */
+(self.webpackChunklyricistant=self.webpackChunklyricistant||[]).push([[346],{5346:(e,t,i)=>{"use strict";i.r(t),i.d(t,{default:()=>s});const r=async(e,t,i=e.name)=>{const s=[],a=[];for await(const n of e.getEntries()){const e=`${i}/${n.name}`;n.isFile?a.push(n.getFile().then((t=>Object.defineProperty(t,"webkitRelativePath",{configurable:!0,enumerable:!0,get:()=>e})))):n.isDirectory&&t&&s.push(r(n,t,e))}return[...(await Promise.all(s)).flat(),...await Promise.all(a)]},s=async(e={})=>{e.recursive=e.recursive||!1;const t=await window.chooseFileSystemEntries({type:"open-directory"});return r(t,e.recursive)}}}]);
+//# sourceMappingURL=346.renderer.js.map

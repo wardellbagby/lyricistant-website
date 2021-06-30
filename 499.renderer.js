@@ -1,0 +1,3 @@
+/*! For license information please see 499.renderer.js.LICENSE.txt */
+(self.webpackChunklyricistant=self.webpackChunklyricistant||[]).push([[499],{3499:(e,t,i)=>{"use strict";i.r(t),i.d(t,{default:()=>s});const s=async(e,t={},i=null)=>{t.fileName=t.fileName||"Untitled";const s={};t.mimeTypes?(t.mimeTypes.push(e.type),t.mimeTypes.map((e=>{s[e]=t.extensions||[]}))):s[e.type]=t.extensions||[],i=i||await window.showSaveFilePicker({types:[{description:t.description||"",accept:s}]});const a=await i.createWritable();return await a.write(e),await a.close(),i}}}]);
+//# sourceMappingURL=499.renderer.js.map

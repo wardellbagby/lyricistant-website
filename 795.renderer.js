@@ -1,0 +1,3 @@
+/*! For license information please see 795.renderer.js.LICENSE.txt */
+(self.webpackChunklyricistant=self.webpackChunklyricistant||[]).push([[795],{2795:(e,t,s)=>{"use strict";s.r(t),s.d(t,{default:()=>i});const i=async(e={})=>new Promise((t=>{const s=document.createElement("input");s.type="file";const i=[...e.mimeTypes?e.mimeTypes:[],e.extensions?e.extensions:[]].join();s.multiple=e.multiple||!1,s.accept=i||"*/*",s.addEventListener("change",(()=>{t(s.multiple?s.files:s.files[0])})),s.click()}))}}]);
+//# sourceMappingURL=795.renderer.js.map
