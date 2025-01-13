@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunklyricistant=self.webpackChunklyricistant||[]).push([[729],{3729:(t,s,P)=>{P.r(s),P.d(s,{APP_AUTHOR:()=>c,APP_HOMEPAGE:()=>l,APP_PLATFORM:()=>e,APP_VERSION:()=>a});const[a,l,c,e]=["3.4.7","https://github.com/wardellbagby/lyricistant","Wardell Bagby","Web"]}}]);
+//# sourceMappingURL=729.renderer.js.map
